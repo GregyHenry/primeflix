@@ -1,6 +1,5 @@
 import {Link} from "react-router-dom";
 import {useEffect, useState} from "react";
-import "./filmes-pesquisados.css";
 
 function FilmesPesquisados() {
   const [filmes, setFilmes] = useState([]);
